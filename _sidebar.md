@@ -1,6 +1,6 @@
 - linux
-  - [linux 命令行](linux/command/command-help)
+  - [linux 命令行](linux/command/command-help.md)
 - postmain
   - [postmain 使用技巧](postmain/使用变量.md)
 - kvm 虚拟机
-  - [kvm 操作命令行](kvm/kvm/kvm-virsh操作)
+  - [kvm 操作命令行](kvm/kvm/kvm-virsh操作.md)
