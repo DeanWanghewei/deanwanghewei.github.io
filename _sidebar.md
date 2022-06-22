@@ -2,6 +2,6 @@
   - [linux 命令行](linux/command/command-help.md)
 - postmain
   - [postmain 使用技巧](postmain/使用变量.md)
-  - [测试](kvm/k8s/k8s部署.md)
+  - [测试](kvm/test.md)
 - kvm 虚拟机
   - [kvm 操作命令行](kvm/kvm/kvm-virsh操作.md)
