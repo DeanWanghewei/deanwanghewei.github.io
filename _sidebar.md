@@ -1,7 +1,10 @@
 - linux
-  - [linux 命令行](linux/command/command-help.md)
+  - [linux 命令行](linux/command-help)
 - postmain
   - [postmain 使用技巧](postmain/使用变量.md)
 - kvm 虚拟机
-  - [kvm 操作命令行](kvm/kvm/kvm-virsh操作.md)
-  - [测试](kvm/test.md)
+  - [kvm 操作命令行](kvm/kvm-virsh操作)
+- k8s
+  - [k8s 部署](k8s/k8s操作命令.md)
+  - [k8s 操作命令行](k8s/k8s操作命令.md)
+  - [k8s 重新初始化](k8s/k8s重新初始化.md)

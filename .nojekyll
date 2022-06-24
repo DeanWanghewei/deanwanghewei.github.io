@@ -1,0 +1,13 @@
+kubeadm init --apiserver-advertise-address=192.168.239.238 --image-repository registry.cn-hangzhou.aliyuncs.com/google_containers \
+      --pod-network-cidr 10.244.0.0/16 \
+      --cri-socket /run/cri-containerd/cri-containerd.sock \
+      --v 5 \
+      --ignore-preflight-errors=all
+
+
+
+kubeadm reset
+
+      kubeadm join 192.168.239.238:6443 --token rw78ss.mg6197grkwt5nqjg \
+        --discovery-token-ca-cert-hash sha256:f1d9cef7f3a7615825bf9d5705265d28868b416fef8033f05f2e63e6dd45d3f1 \
+        --cri-socket /run/cri-containerd/cri-containerd.sock
