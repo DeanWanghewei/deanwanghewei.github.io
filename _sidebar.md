@@ -5,6 +5,6 @@
 - kvm 虚拟机
   - [kvm 操作命令行](kvm/kvm-virsh操作)
 - k8s
-  - [k8s 部署](k8s/k8s操作命令.md)
+  - [k8s 部署](k8s/k8s部署.md)
   - [k8s 操作命令行](k8s/k8s操作命令.md)
   - [k8s 重新初始化](k8s/k8s重新初始化.md)
